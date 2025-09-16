@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #fdddca;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.tarjeta-producto{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid red;
+    box-shadow: 0 4px 8px darkorange;
+    position: relative;
+    border-radius: 8px;
+    background-color: #f1ba9a;
+}
+
+.tarjeta-producto h2 {
+    margin: 10px 0;
+}    
+
+.tarjeta-producto img {
+    width: 100%;
+}
+
+.etiqueta-oferta{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px ;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
